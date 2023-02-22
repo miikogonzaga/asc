@@ -1,0 +1,131 @@
+/* Main CSS file */
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background: linear-gradient(0deg, rgba(159,158,246,.4) 0%, rgba(199,237,249,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+h1 {
+    padding-top: 16px;
+    padding-left: 32px;
+    color: rgb(125,124,226);
+    font-weight: 600;
+}
+
+.small {
+    font-size: .75em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+main {
+    margin: 16px;
+    width: 420px;
+    border-radius: 16px;
+    background: #FFF;
+    background-image: url("../assets/background.png");
+    background-position: -2px 0;
+    box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+}
+
+main a {
+    color: #FFF;
+}
+
+form {
+    margin-top: 48px;
+    padding: 16px 32px;
+    color: #FFF;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+#password, #email {
+    width: 100%;
+    height: 44px;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-password a {
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+div.checkbox {
+  margin-top: 8px;
+  display: flex;
+}
+
+div.checkbox span.small {
+  padding: 4px 0 0 4px;
+}
+
+input.invalid {
+    border: 2px solid red;
+}
+
+input.valid {
+    border: 2px solid green;
+}
+
+.field-password {
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 20px;
+    color: rgb(125,124,226);
+}
+
+svg:hover, input[type="checkbox"] {
+    cursor: pointer;
+}
+
+button {
+    margin: 10px 0;
+    padding: 16px;
+    width: 240px;
+    background-color: #FFF;
+    border: none;
+    color: rgb(96,84,220);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    cursor: pointer;
+}
